@@ -1,5 +1,5 @@
 # Car-Game
-I created this in Pygame to practice the new concept of Side Scrolling, but this is for vertical scrolling instead of horizontal.
+I created this in Pygame to practice the new concept of Side Scrolling, but this is for vertical scrolling instead of horizontal. This is created with images and without images
 
 ## Remixing Ethically: A Note from the Author
 This code is licensed under the MIT License to ensure compatibility with GitHub’s systems.
