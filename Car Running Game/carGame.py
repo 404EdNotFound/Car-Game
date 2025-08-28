@@ -30,7 +30,7 @@ class Player():
 
 #Class used for obstacles that can collide with the user
 class Cars():
-    CARS = ["C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\Red.png", "C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\Black.png", "C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\White.png", "C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\Yellow.png"]
+    CARS = ["Red.png", "Black.png", "White.png", "Yellow.png"]
     def __init__(self, x):
         self.x = x
         self.y = random.randint(-HEIGHT, 0)
@@ -78,9 +78,9 @@ def image_move():
         yPosition = nooby_y_pos - roadImage.get_height()
 
 #Used to define images
-carImage = pygame.image.load("C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\Red.png").convert_alpha()
+carImage = pygame.image.load("Red.png").convert_alpha()
 carImage = pygame.transform.rotate(pygame.transform.scale(carImage, (75, 75)), 180) #Rotates to fit the image in the bottom
-roadImage = pygame.image.load("C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\Car Running Game\\Road.png").convert_alpha()
+roadImage = pygame.image.load("Road.png").convert_alpha()
 roadImage = pygame.transform.scale(roadImage, (LENGTH, HEIGHT + 100))
 
 nooby_y_pos = 0
@@ -111,5 +111,6 @@ while run:
         
     if playerCar.hitbox.colliderect(obstacleCars.hitbox):
         run = False
+
 
 pygame.quit()
