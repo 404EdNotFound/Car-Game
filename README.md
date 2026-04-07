@@ -1,5 +1,16 @@
+# Please Read before viewing all the files
 # Car-Game
-I created this in Pygame to practice the new concept of Side Scrolling, but this is for vertical scrolling instead of horizontal. This is created with images and without images
+I created this in Pygame to practice the new concept of Side Scrolling, but this is for vertical scrolling instead of horizontal. This is created with images and without images to demonstrate Side Scrolling and Collisions.
+
+# Features
+* Pygame Module initialised for creating the interface and placing objects that can be controlled
+* Car Class
+* Loop for Option of Cars to pass through (Image Version)
+* Image Loading (Image Version)
+* Collision Detection
+
+# Screenshots
+(will be added)
 
 ## Remixing Ethically: A Note from the Author
 This code is licensed under the MIT License to ensure compatibility with GitHub’s systems.
