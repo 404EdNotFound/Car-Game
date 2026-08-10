@@ -9,6 +9,11 @@ I created this in Pygame to practice the new concept of Side Scrolling, but this
 * Image Loading (Image Version)
 * Collision Detection
 
+# Running the Project
+* This project is written with 2 Python Files. Please ensure that you have Python installed and an IDE (VSCode, IDLE, Thonny etc) (prefably Python 3)
+* The Script without images can easily be found. However, the Python Script with Images is inside a folder called "Car Running Game" which also contains image assets of other car images. 
+* Please also ensure that you have Pygame installed (after installing Python, and prefably to its latest version)
+
 # Screenshots
 (will be added)
 
