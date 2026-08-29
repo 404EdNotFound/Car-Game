@@ -15,7 +15,9 @@ I created this in Pygame to practice the new concept of Side Scrolling, but this
 * Please also ensure that you have Pygame installed (after installing Python, and prefably to its latest version)
 
 # Screenshots
-(will be added)
+Videos to demonstrate the Car Game:
+* [Click here to view the Car Game with Images](https://github.com/user-attachments/assets/c3f566b3-1d30-45f2-83ba-4fa43cd8dbea)
+* [Click Here to view the Car Game with Shapes](https://github.com/user-attachments/assets/13d025c6-1d87-45b8-b437-c94ceadf85b4)
 
 ## Remixing Ethically: A Note from the Author
 This code is licensed under the MIT License to ensure compatibility with GitHub’s systems.
